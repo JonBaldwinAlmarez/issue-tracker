@@ -5,6 +5,8 @@ import json
 DATA_DIR = Path("data")  # Directory to store data files
 DATA_FILE = DATA_DIR / "data.json"  # Path to the JSON data file
 
+# Function to load data from the JSON file
+
 
 def data_loader():
     if DATA_FILE.exists():
